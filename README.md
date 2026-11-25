@@ -70,7 +70,7 @@ We ran Kinference against a plain Kubernetes Service in front of the same vLLM d
 | **3.5× higher** peak goodput | Multi-turn, under load | 23.8 req/min | 82.7 req/min |
 | **No added latency** at the median | No shared prefix, light load | 6.92 s | 6.83 s |
 
-Goodput is the number of requests per minute that met the latency objective. The absolute numbers depend on the model and the hardware, so read the 2 columns against each other. The [detailed benchmark write-up, on the Buoyant blog](https://www.buoyant.io/blog/distributed-inference-benchmarks-kinference-vs-plain-kubernetes) has more information on the benchmarking setup, methodology, the confidence intervals and the full results.
+Goodput is the number of requests per minute that met the latency objective. The [detailed benchmark write-up, on the Buoyant blog](https://www.buoyant.io/blog/distributed-inference-benchmarks-kinference-vs-plain-kubernetes) has more information on the benchmarking setup, methodology, the confidence intervals and the full results.
 
 ## How it works
 
@@ -162,8 +162,22 @@ Kinference builds on [vLLM](https://github.com/vllm-project/vllm) and on the `dy
 
 Please use [GitHub discussions](https://github.com/Kinference-AI/kinference/discussions)!
 
+You can also follow Buoyant for news and updates:
+
+- [Buoyant on LinkedIn](https://www.linkedin.com/company/buoyantio)
+- [Buoyant on X](https://x.com/buoyantio)
+- [Buoyant on Bluesky](https://bsky.app/profile/buoyant.io)
+- [Buoyant on YouTube](https://www.youtube.com/c/buoyantio)
+
 ## Copyright and license
 
 Kinference is copyright 2026 Buoyant, Inc.
 
 Kinference is licensed under the Apache License, Version 2.0. See [LICENSE](LICENSE) for the full text.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="docs/assets/kinference-by-buoyant-dark.svg">
+    <img alt="[K]inference by Buoyant" src="docs/assets/kinference-by-buoyant-light.svg" width="280">
+  </picture>
+</p>
